@@ -6,6 +6,13 @@ module.exports = {
   extends: ['react-app', 'prettier'],
   plugins: ['prettier'],
   rules: {
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
+      },
+    ],
     'prettier/prettier': [
       'warn',
       {

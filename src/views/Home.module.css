@@ -1,0 +1,4 @@
+.Home .routes {
+  display: flex;
+  flex-direction: column;
+}
