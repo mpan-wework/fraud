@@ -32,21 +32,12 @@
     "build": "react-scripts build",
     "postbuild": "mv build dist",
     "test": "react-scripts test",
+    "eslint": "eslint src --ext .ts,.tsx,.js",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.2"
   }
 }
