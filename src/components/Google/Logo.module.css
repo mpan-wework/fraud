@@ -1,0 +1,50 @@
+.Logo {
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.letterG {
+  color: #5086ec;
+  font-size: 70px;
+}
+
+.lettero1 {
+  padding-top: 5px;
+  margin-left: 3px;
+  color: #d9503f;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.lettero2 {
+  padding-top: 5px;
+  margin-left: 3px;
+  margin-right: 1px;
+  color: #f2bd42;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.letterg {
+  margin-top: -4px;
+  color: #5086ec;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.letterl {
+  margin: 8px 2px 25px;
+  width: 9px;
+  background-color: #58a55c;
+  color: #58a55c;
+}
+
+.lettere {
+  margin-top: -3px;
+  color: #d9503f;
+  font-size: 76px;
+  font-weight: 700;
+  transform: rotate(-20deg);
+}

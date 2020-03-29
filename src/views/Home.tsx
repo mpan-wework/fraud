@@ -8,12 +8,15 @@ const Home = () => {
     <div className={styles.Home}>
       <div className={styles.routes}>
         {routes
-          .filter((route) => (route as RouteConfig).component)
+          .filter(
+            (route): route is RouteConfig =>
+              (route as RouteConfig).component !== undefined &&
+              route.path !== '/'
+          )
           .map((route) => {
-            const routeConfig: RouteConfig = route as any;
             return (
-              <Link key={routeConfig.path} to={routeConfig.path}>
-                {routeConfig.path}
+              <Link key={route.path} to={route.path}>
+                {route.path}
               </Link>
             );
           })}

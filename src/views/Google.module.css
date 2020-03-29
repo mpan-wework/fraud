@@ -1,0 +1,31 @@
+.Google {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavTop {
+  flex: 0 1 50px;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.Content {
+  flex-grow: 1;
+  flex-shrink: 8;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.Content > * {
+  margin-bottom: 20px;
+}
+
+.NavBottom {
+  flex: 0 1 80px;
+}

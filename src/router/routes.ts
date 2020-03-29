@@ -21,7 +21,7 @@ const routes: RoutesConfig = [
     component: Home,
   },
   {
-    path: '/google',
+    path: '/www.google.com',
     exact: true,
     component: Google,
   },

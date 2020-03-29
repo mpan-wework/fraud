@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { Switch, Redirect, Route } from 'react-router-dom';
 import useRouterPlugins from './useRouterPlugins';
-import routes, { RedirectConfig, RouteConfig } from './routes';
+import routeList, { RedirectConfig, RouteConfig } from './routes';
 
 const RouterView = () => {
   const {
@@ -11,30 +11,42 @@ const RouterView = () => {
 
   useEffect(routeChanged, [routePath]);
 
+  const routes = useMemo(
+    () =>
+      routeList.filter(
+        (route): route is RouteConfig =>
+          (route as RouteConfig).component !== undefined
+      ),
+    []
+  );
+  const redirects = useMemo(
+    () =>
+      routeList.filter(
+        (route): route is RedirectConfig =>
+          (route as RedirectConfig).redirect !== undefined
+      ),
+    []
+  );
+
   return (
     <Switch>
       {routes.map((route) => {
-        if ((route as RedirectConfig).redirect) {
-          const redirectConfig = route as RedirectConfig;
-          return (
-            <Redirect
-              key={redirectConfig.path}
-              to={redirectConfig.redirect}
-              from={redirectConfig.path}
-            />
-          );
-        }
-
-        const routeConfig = route as RouteConfig;
         return (
           <Route
-            key={routeConfig.path}
-            path={routeConfig.path}
-            exact={!!routeConfig.exact}
-            render={(routeProps) => <routeConfig.component {...routeProps} />}
+            key={route.path}
+            path={route.path}
+            exact={!!route.exact}
+            render={(routeProps) => <route.component {...routeProps} />}
           />
         );
       })}
+      {redirects.map((redirect) => (
+        <Redirect
+          key={redirect.path}
+          to={redirect.redirect}
+          from={redirect.path}
+        />
+      ))}
     </Switch>
   );
 };

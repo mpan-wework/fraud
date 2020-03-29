@@ -1,0 +1,57 @@
+.NavBottom {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.ip {
+  flex: 1 1 40px;
+  color: rgba(0,0,0,.54);
+  border: 1px solid #e4e4e4;
+  padding-left: 27px;
+  padding-right: 27px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.links {
+  flex: 1 1 40px;
+  padding-left: 27px;
+  padding-right: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left > div {
+  margin-right: 10px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.right > div {
+  margin-left: 10px;
+}
+
+.link {
+  color: #5f6368;
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
