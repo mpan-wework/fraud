@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37bd2280dd3b5ccb7f630194a7bd38bb",
+    "revision": "a8245395e5d7cb457e8c0ea984b3cbb0",
     "url": "/fraud/dist/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fraud/dist/static/css/2.a79526cc.chunk.css"
   },
   {
-    "revision": "31a62d96620b320c48b4",
+    "revision": "38cd8b2263366bfe0abe",
     "url": "/fraud/dist/static/css/main.14c90803.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fraud/dist/static/js/2.e1cf550a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31a62d96620b320c48b4",
-    "url": "/fraud/dist/static/js/main.23468d8c.chunk.js"
+    "revision": "38cd8b2263366bfe0abe",
+    "url": "/fraud/dist/static/js/main.d9c940b0.chunk.js"
   },
   {
     "revision": "49fbdc3dc2bfa70cdc2d",

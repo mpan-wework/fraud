@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fraud/dist/static/css/main.14c90803.chunk.css",
-    "main.js": "/fraud/dist/static/js/main.23468d8c.chunk.js",
-    "main.js.map": "/fraud/dist/static/js/main.23468d8c.chunk.js.map",
+    "main.js": "/fraud/dist/static/js/main.d9c940b0.chunk.js",
+    "main.js.map": "/fraud/dist/static/js/main.d9c940b0.chunk.js.map",
     "runtime-main.js": "/fraud/dist/static/js/runtime-main.c0ac1b4c.js",
     "runtime-main.js.map": "/fraud/dist/static/js/runtime-main.c0ac1b4c.js.map",
     "static/css/2.a79526cc.chunk.css": "/fraud/dist/static/css/2.a79526cc.chunk.css",
     "static/js/2.e1cf550a.chunk.js": "/fraud/dist/static/js/2.e1cf550a.chunk.js",
     "static/js/2.e1cf550a.chunk.js.map": "/fraud/dist/static/js/2.e1cf550a.chunk.js.map",
     "index.html": "/fraud/dist/index.html",
-    "precache-manifest.a993c0698787953d93976a6a956205ca.js": "/fraud/dist/precache-manifest.a993c0698787953d93976a6a956205ca.js",
+    "precache-manifest.50f0143b9306fbff868da58554d5bc82.js": "/fraud/dist/precache-manifest.50f0143b9306fbff868da58554d5bc82.js",
     "service-worker.js": "/fraud/dist/service-worker.js",
     "static/css/2.a79526cc.chunk.css.map": "/fraud/dist/static/css/2.a79526cc.chunk.css.map",
     "static/css/main.14c90803.chunk.css.map": "/fraud/dist/static/css/main.14c90803.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.a79526cc.chunk.css",
     "static/js/2.e1cf550a.chunk.js",
     "static/css/main.14c90803.chunk.css",
-    "static/js/main.23468d8c.chunk.js"
+    "static/js/main.d9c940b0.chunk.js"
   ]
 }
