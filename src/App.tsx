@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router } from 'react-router-dom';
 import RouterView from './router/RouterView';
-import AssistiveTouch from './components/AssistiveTouch';
+import AssistiveTouch from './components/controls/AssistiveTouch';
 import 'normalize.css/normalize.css';
 import styles from './App.module.css';
 

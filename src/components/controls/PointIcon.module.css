@@ -1,0 +1,48 @@
+.point {
+  position: absolute;
+  display: grid;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.point.moving {
+  transition: none;
+}
+
+.point:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.point > div {
+  grid-row: 1/1;
+  grid-column: 1/1;
+  align-self: center;
+  justify-self: center;
+}
+
+.circle1 {
+  pointer-events: none;
+  user-select: none;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+}
+.circle2 {
+  pointer-events: none;
+  user-select: none;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.circle3 {
+  pointer-events: none;
+  user-select: none;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
