@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "256cb15b3ac4e0dbcf37e3d4a8881605",
+    "revision": "b52ac5d737c45d671de792a6cd3ce8fe",
     "url": "/fraud/dist/index.html"
   },
   {
-    "revision": "f1254c64f67c01a8bf6f",
-    "url": "/fraud/dist/static/css/2.a79526cc.chunk.css"
+    "revision": "e596c20fae6ad79a2324",
+    "url": "/fraud/dist/static/css/2.521d58ae.chunk.css"
   },
   {
-    "revision": "e3d10906724952238d11",
-    "url": "/fraud/dist/static/css/main.14c90803.chunk.css"
+    "revision": "1da4dca20f2b74731ee6",
+    "url": "/fraud/dist/static/css/main.3cf8c5f6.chunk.css"
   },
   {
-    "revision": "f1254c64f67c01a8bf6f",
-    "url": "/fraud/dist/static/js/2.e1cf550a.chunk.js"
+    "revision": "e596c20fae6ad79a2324",
+    "url": "/fraud/dist/static/js/2.1a260ae9.chunk.js"
   },
   {
     "revision": "216e537bacc64f9dbaabd26649a9ab95",
-    "url": "/fraud/dist/static/js/2.e1cf550a.chunk.js.LICENSE.txt"
+    "url": "/fraud/dist/static/js/2.1a260ae9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3d10906724952238d11",
-    "url": "/fraud/dist/static/js/main.3f1f4d96.chunk.js"
+    "revision": "1da4dca20f2b74731ee6",
+    "url": "/fraud/dist/static/js/main.09e2dd99.chunk.js"
   },
   {
     "revision": "49fbdc3dc2bfa70cdc2d",
